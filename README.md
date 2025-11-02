@@ -36,9 +36,10 @@ H<sub>0</sub>: 60% or more clients subscribe to term deposit (success).
 
 H<sub>1</sub>: 60% or more clients did not subscribe to term deposit (Failure).
 
-- `Decision rule:` Accept the null hypothesis if p-value < 0.005, otherwise we fail to accept.
+- `Decision rule:` Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept.
 
 ![Sample Plot](plots/subs_plot.png)
+
 Fig. 1: How cliets subscribe to Term Deposit after the campaign.
 
 Table 1: Can the campaign be considered a successful one?
