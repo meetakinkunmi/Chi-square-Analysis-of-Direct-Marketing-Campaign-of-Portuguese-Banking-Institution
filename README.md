@@ -31,6 +31,7 @@ Where:
 1. Determine whether the marketing campaign can be considered a successfull one(if 60% or more of client subscribe to Term Deposit)
 
 - `Hypothesis:`
+
 H<sub>0</sub>: 60% or more clients subscribe to term deposit (success).
 
 H<sub>1</sub>: 60% or more clients did not subscribe to term deposit (Failure).
@@ -41,12 +42,12 @@ H<sub>1</sub>: 60% or more clients did not subscribe to term deposit (Failure).
 Fig. 1: How cliets subscribe to Term Deposit after the campaign.
 
 Table 1: Can the campaign be considered a successful one?
-<div align="center">
+
 |Statistic  |Chi-Square Goodness of Fit |
 |:---------:|:-------------------------:|
 |Chi-Square	|15088.719298               |
 |Asymp. Sig.|0.00                       |
-</div>
+
 
 - Decision: Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that 60% or more clients did not subscribe to Term Deposit after the campaign.
 
