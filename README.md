@@ -20,23 +20,25 @@ Chi-square analysis is a statistical method used totest relationships between ca
 The Chi-square statistic is calculated as:
 
  **χ<sup>2</sup> = Σ [(O<sub>i</sub> − E<sub>i</sub>)<sup>2</sup> / E<sub>i</sub>]**
+ 
+ **E<sub>i</sub> = (Row Total × Column Total) / Grand Total**
 
 Where:  
 - **Σ** = Summation for all categories  
 - **O<sub>i</sub>** = Observed frequency for category *i*  
 - **E<sub>i</sub>** = Expected frequency for category *i*
-- **E<sub>i</sub> = (Row Total × Column Total) / Grand Total**
+
+- `Decision rule for hypothesis:` Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept the null hypothesis.
+
 
 ## `Analysis`
 1. Determine whether the marketing campaign can be considered a successfull one(if 60% or more of client subscribe to Term Deposit)
 
 - `Hypothesis:`
 
-H<sub>0</sub>: 60% or more clients subscribe to term deposit (success).
+H<sub>0</sub>: 60% or more customers subscribe to term deposit (success).
 
-H<sub>1</sub>: 60% or more clients did not subscribe to term deposit (Failure).
-
-- `Decision rule:` Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept.
+H<sub>1</sub>: 60% or more customers did not subscribe to term deposit (Failure).
 
 ![Sample Plot](plots/subs_plot.png)
 
@@ -60,11 +62,9 @@ H<sub>0</sub>: There is no association between the job type of customers and cus
 
 H<sub>1</sub>: There is association between the job type of customers and customers subscribing to Term Deposit
 
-- `Decision rule:` Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept null hypothesis
+![Sample Plot](plots/obj2_plot1.png)
 
-![Sample Plot](plots/obj2_plot.png)
-
-Fig. 2: What customer marketing agents should focus on.
+Fig. 2: Customers with which job type should marketing agents focus on?
 
 Table 2: Does job type influences customer decision to subscribe?
 
@@ -83,3 +83,18 @@ Table 2: Does job type influences customer decision to subscribe?
 H<sub>0</sub>: There is no association between marital status of customers and customers subscribing to Term Deposit
 
 H<sub>1</sub>: Tere is an association between marital status of customers and customers subscribing to Term Deposit
+
+![Sample Plot](plots/obj3_plot1.png)
+
+Table 2: Does customer's marital status matters in their decision to subscribe to Term Deposit?
+
+|               |chi-square test    |
+|:-------------:|:-----------------:| 
+|statistic      |196.4959           |
+|p-value        |0.0000             |
+|df             |2.0000             |
+
+- `Decision:` Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
+
+4. Determine if there is an association between the education background of clients and clients subscribing to Term Deposit
+
