@@ -27,15 +27,16 @@ Where:
 - **O<sub>i</sub>** = Observed frequency for category *i*  
 - **E<sub>i</sub>** = Expected frequency for category *i*
 
-- `Decision rule for hypothesis:` Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept the null hypothesis.
+- **Decision rule for hypothesis:** Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept the null hypothesis.
 
-- `Level of Significance = 0.05`
+- **Level of Significance = 0.05**
 
 
-## `Analysis`
-1. Determine whether the marketing campaign can be considered a successfull one(if 60% or more of client subscribe to Term Deposit)
+## Analysis
 
-- `Hypothesis:`
+**Objective 1:** Determine whether the marketing campaign can be considered a successfull one(if 60% or more of client subscribe to Term Deposit)
+
+**Hypothesis**
 
 H<sub>0</sub>: 60% or more customers subscribe to term deposit (success).
 
@@ -53,15 +54,15 @@ Table 1: Can the campaign be considered a successful one?
 |Asymp. Sig.|0.00                       |
 
 
-- `Decision:` Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that 60% or more clients did not subscribe to Term Deposit after the campaign.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that 60% or more clients did not subscribe to Term Deposit after the campaign.
 
-2. Determine if there is an association between the job type of customers and clients subscribing to Term Deposit
+**Objective 2:** Determine if there is an association between the job type of customers and clients subscribing to Term Deposit
 
-- `Hypothesis:`
+**Hypothesis**
 
-H<sub>0</sub>: There is no association between the job type of customers and customers subscribing to Term Deposit
+- H<sub>0</sub>: There is no association between the job type of customers and customers subscribing to Term Deposit
 
-H<sub>1</sub>: There is association between the job type of customers and customers subscribing to Term Deposit
+- H<sub>1</sub>: There is association between the job type of customers and customers subscribing to Term Deposit
 
 ![Sample Plot](plots/obj2_plot1.png)
 
@@ -75,11 +76,11 @@ Table 2: Does job type influences customer decision to subscribe?
 |p-value        |3.337122e-172      |
 |df             |1.100000e+01       |
 
-- `Decision:` Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between the job type of customers and customers decision to subscribe to Term Deposit.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between the job type of customers and customers decision to subscribe to Term Deposit.
 
-3. Determine if there is an association between the marital status of clients and clients subscribing to Term Deposit
+**Objective 3:** Determine if there is an association between the marital status of clients and clients subscribing to Term Deposit
 
-- `Hypothesis:`
+**Hypothesis**
 
 H<sub>0</sub>: There is no association between marital status of customers and customers subscribing to Term Deposit
 
@@ -87,9 +88,9 @@ H<sub>1</sub>: Tere is an association between marital status of customers and cu
 
 ![Sample Plot](plots/obj3_plot1.png)
 
-Fig. 3: How customers subscribed to Term Deposit across different marital status stage
+**Fig. 3: How customers subscribed to Term Deposit across different marital status stage**
 
-Table 3: Does customer's marital status matters in their decision to subscribe to Term Deposit?
+**Table 3: Does customer's marital status matters in their decision to subscribe to Term Deposit?**
 
 |               |chi-square test    |
 |:-------------:|:-----------------:| 
@@ -97,11 +98,11 @@ Table 3: Does customer's marital status matters in their decision to subscribe t
 |p-value        |0.0000             |
 |df             |2.0000             |
 
-- `Decision:` Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
 
 4. Determine if there is an association between the education background of clients and clients subscribing to Term Deposit
 
-`Hypothesis:`
+**Hypothesis:**
 
 - H<sub>0</sub>: There is no association between educational level of customers and customers subscribing to Term Deposit
 
@@ -119,7 +120,8 @@ Table 4: Does Educational level significantly influences customers decision to s
 |p-value        |0.0000             |
 |df             |3.0000             |
 
-- `Decision:` Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
 
 ## Conclusion
 
+Term Deposit can be referred to as a financial product where a customer commits a certain sum of money for a fixed or predetermined period in exchange for a fixed exchange rate. 
