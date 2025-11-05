@@ -23,7 +23,7 @@ X^2 = \sum_{i=1}^{n} \frac{(Obs_i - Exp_i)^2}{Exp_i}    where;
 $$
 
 $$
- Exp_i = \frac{Row_Total * Column_Total}{Grand_Total}
+Exp_i = \frac{Row_{Total} * Column_{Total}}{Grand_{Total}}
 $$
 
 
