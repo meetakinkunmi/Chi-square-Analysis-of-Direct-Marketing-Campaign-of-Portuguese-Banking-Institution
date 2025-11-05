@@ -1,25 +1,26 @@
 # Chi-square Analysis of Direct Marketing Campaign of Portuguese Banking Institution
 
 ## Introduction
-A term deposit is a low-risk investment where customer deposit a certain amount of money for a fixed period in exchange for a guaranteed interest rate. Banks market term deposits extensively because these accounts offer them essential benefits. Marketing term deposits helps banks attract new customers, build customer loyalty by providing a safe investment option, and meet regulatory capital and funding stability requirements.
+A term deposit is a low-risk investment where customer deposit a certain amount of money for a fixed period in exchange for a guaranteed interest rate which it's equivalent amount from the initial deposit will given to the customer on a monthly basis or at an agreed time frame. Banks market term deposits extensively because these financial products offer the bank important benefits. Marketing term deposits helps banks attract new customers, build customer loyalty by providing a safe investment option, and meet regulatory capital and funding stability requirements.
 ## Data and Data Source
-This report examines a direct marketing campaign conducted by a Portuguese banking institution aimed at encouraging customers to subscribe to a term deposit product. The campaign was executed primarily through telephone calls, where marketing agents contacted both existing and potential customers to present the investment offer. The dataset was sourced from the UCI Machine Learning Resipository(https://archive.ics.uci.edu/dataset/222/bank+marketing) and it comprises detailed information on client demographics, socioeconomics characteristics, financial behavior and the outcomes of previous campaign
+This report examines a direct marketing campaign conducted by a Portuguese banking institution aimed at encouraging customers to subscribe to a term deposit product. The campaign was executed primarily through telephone calls, where marketing agents contacted both existing and potential customers to present the investment offer. The marketing campaign dataset was sourced from the UCI Machine Learning Resipository(https://archive.ics.uci.edu/dataset/222/bank+marketing) and it comprises detailed information on customers demographics or social status, socioeconomics characteristics, financial behavior, the outcomes of previous campaign and the final actions of each customers whether subscribed or not.
 ## Objectives
 The general objective of this analysis is to establish whether social status of customers can statistically and significantly influence their decision in making Term Deposit, while the specific objective is to:
 - Determine whether the marketing campaign can be considered a successfull one(if 60% of client subscribe to Term Deposit)
-- Determine if there is an association between the job type of clients and clients subscribing to Term Deposit
-- Determine if there is an association between the marital status of clients and clients subscribing to Term Deposit
-- Determine if there is an association between the education background of clients and clients subscribing to Term Deposit
+- Determine if there is an association between the job type of customers and customers subscribing to Term Deposit
+- Determine if there is an association between the marital status of customers and customers subscribing to Term Deposit
+- Determine if there is an association between the education background of customers and customers subscribing to Term Deposit
 ## Methodology - Chi-square Analysis
-Chi-square analysis is a statistical method used totest relationships between caterical variables by comparing observed data to expected outcomes. It helps determine wheter differences or associations are statistically significant or due to chance.
-- There are two types of Chi-Square Tests
+Chi-square analysis is a statistical method used to test relationships between caterical variables by comparing observed data to expected outcomes. It helps determine wheter differences or associations are statistically significant or due to chance.
+- **There are two types of Chi-Square Tests**
 1. `Chi-square Goodness of Fit Test` - Tests if a single categorical variable fits a theoretical distribution. For the purpose of this report, chi-square goodness of fit will be used to achieve objective one.
 2. `Chi-square Test of Independence` - Tests if two categorical variables are related. For the purpose of this report, chi-square test of independence will be used to achieve every other objectives except the first one.
 
 The Chi-square statistic is calculated as:
+$$
+χ<sup>2</sup> = Σ \frac{(O<sub>i</sub> − E<sub>i</sub>)<sup>2</sup>}{E<sub>i</sub>}
+$$
 
- **χ<sup>2</sup> = Σ [(O<sub>i</sub> − E<sub>i</sub>)<sup>2</sup> / E<sub>i</sub>]**
- 
  **E<sub>i</sub> = (Row Total × Column Total) / Grand Total**
 
 Where:  
