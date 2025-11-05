@@ -19,10 +19,13 @@ Chi-square analysis is a statistical method used to test relationships between c
 The Chi-square statistic is calculated as:
 
 $$
-X^2 = \sum \frac{(O - E)^2}{E}
+X^2 = \sum_{i=1}^{n} \frac{(Obs_i - Exp_i)^2}{Exp_i}    where;
 $$
 
- **E<sub>i</sub> = (Row Total × Column Total) / Grand Total**
+$$
+ Exp_i = \frac{Row_Total * Column_Total}{Grand_Total}
+$$
+
 
 Where:  
 - **Σ** = Summation for all categories  
