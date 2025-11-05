@@ -17,8 +17,9 @@ Chi-square analysis is a statistical method used to test relationships between c
 2. `Chi-square Test of Independence` - Tests if two categorical variables are related. For the purpose of this report, chi-square test of independence will be used to achieve every other objectives except the first one.
 
 The Chi-square statistic is calculated as:
+
 $$
-χ<sup>2</sup> = Σ \frac{(O<sub>i</sub> − E<sub>i</sub>)<sup>2</sup>}{E<sub>i</sub>}
+\X^2 = \sum \frac{(O - E)^2}{E}
 $$
 
  **E<sub>i</sub> = (Row Total × Column Total) / Grand Total**
