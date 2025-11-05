@@ -19,7 +19,7 @@ Chi-square analysis is a statistical method used to test relationships between c
 The Chi-square statistic is calculated as:
 
 $$
-X^2 = \sum \frac{(O - E)^2}{E}
+X^2 = sum \frac{(O - E)^2}{E}
 $$
 
  **E<sub>i</sub> = (Row Total × Column Total) / Grand Total**
