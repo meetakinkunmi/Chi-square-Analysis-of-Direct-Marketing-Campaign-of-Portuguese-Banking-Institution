@@ -20,17 +20,17 @@ The Chi-square statistic is calculated as:
 
 $$
 X^2 = \sum_{i=1}^{n} \frac{(Obs_i - Exp_i)^2}{Exp_i}    
-$$                              where;
+$$
+
+Where:  
+
+- $\sum$ = Summation for all categories  
+- $Obs_i$ = Observed frequency for category *i*  
+- $Exp_i$ = Expected frequency for category *i*
 
 $$
 Exp_i = \frac{Row_{Total} * Column_{Total}}{Grand_{Total}}
 $$
-
-
-Where:  
-- **Σ** = Summation for all categories  
-- **O<sub>i</sub>** = Observed frequency for category *i*  
-- **E<sub>i</sub>** = Expected frequency for category *i*
 
 - **Decision rule for hypothesis:** Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept the null hypothesis.
 
