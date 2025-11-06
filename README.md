@@ -92,7 +92,7 @@ $$
 
 ![Sample Plot](plots/obj3_plot1.png)
 
-**Fig. 3: How customers subscribed to Term Deposit across different marital status stage**
+**Fig. 3: How customers subscribed to Term Deposit by marital status**
 
 **Table 3: Does customer's marital status matters in their decision to subscribe to Term Deposit?**
 
@@ -114,7 +114,7 @@ $$
 
 ![Sample Plot](plots/obj4_plot.png)
 
-**Fig. 4: How education level influences customers decision in subscribing to Term Deposit**
+**Fig. 4: How education level influences customers decision to subscribing to Term Deposit**
 
 **Table 4: Does Educational level significantly influences customers decision to subscribe to Term Deposit**
 
