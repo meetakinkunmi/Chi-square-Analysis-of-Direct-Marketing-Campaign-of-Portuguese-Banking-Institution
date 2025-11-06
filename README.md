@@ -32,26 +32,25 @@ $$
 Exp_i = \frac{Row_{Total} * Column_{Total}}{Grand_{Total}}
 $$
 
-- **Decision rule for hypothesis:** Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept the null hypothesis.
-
 - **Level of Significance = 0.05**
 
+- **Decision rule for hypothesis:** Accept the null hypothesis if p-value < 0.05, otherwise we fail to accept the null hypothesis.
 
-## Analysis
+## Analysis - Objective Based
 
 **Objective 1:** Determine whether the marketing campaign can be considered a successfull one(if 60% or more of client subscribe to Term Deposit)
 
-**Hypothesis**
+**Hypothesis:**
 
-H<sub>0</sub>: 60% or more customers subscribe to term deposit (success).
+- H<sub>0</sub>: 60% or more customers subscribe to term deposit (success).
 
-H<sub>1</sub>: 60% or more customers did not subscribe to term deposit (Failure).
+- H<sub>1</sub>: 60% or more customers did not subscribe to term deposit (Failure).
 
 ![Sample Plot](plots/subs_plot.png)
 
-Fig. 1: How customers subscribed to Term Deposit after the campaign.
+**Fig. 1: How customers subscribed to Term Deposit after the campaign**
 
-Table 1: Can the campaign be considered a successful one?
+**Table 1: Can the campaign be considered a successful one?**
 
 |Statistic  |Chi-Square Goodness of Fit |
 |:---------:|:-------------------------:|
@@ -59,11 +58,11 @@ Table 1: Can the campaign be considered a successful one?
 |Asymp. Sig.|0.00                       |
 
 
-- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that 60% or more clients did not subscribe to Term Deposit after the campaign.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that 60% or more customers did not subscribe to Term Deposit after the campaign. That is, based on the objective of this analysis, the marketing campaign can be considered an unsuccessful one.
 
-**Objective 2:** Determine if there is an association between the job type of customers and clients subscribing to Term Deposit
+**Objective 2:** Determine if there is an association between the job type of customers and customers subscribing to Term Deposit
 
-**Hypothesis**
+**Hypothesis:**
 
 - H<sub>0</sub>: There is no association between the job type of customers and customers subscribing to Term Deposit
 
@@ -71,9 +70,9 @@ Table 1: Can the campaign be considered a successful one?
 
 ![Sample Plot](plots/obj2_plot1.png)
 
-Fig. 2: Customers with which job type should marketing agents focus on?
+**Fig. 2: Customers with which job type should marketing agents focus their attention in the coming campaign?**
 
-Table 2: Does job type influences customer decision to subscribe?
+**Table 2: Does job type influences customer decision to subscribe?**
 
 |               |chi-square test    |
 |:-------------:|:-----------------:| 
@@ -87,9 +86,9 @@ Table 2: Does job type influences customer decision to subscribe?
 
 **Hypothesis**
 
-H<sub>0</sub>: There is no association between marital status of customers and customers subscribing to Term Deposit
+- H<sub>0</sub>: There is no association between marital status of customers and customers subscribing to Term Deposit
 
-H<sub>1</sub>: Tere is an association between marital status of customers and customers subscribing to Term Deposit
+- H<sub>1</sub>: Tere is an association between marital status of customers and customers subscribing to Term Deposit
 
 ![Sample Plot](plots/obj3_plot1.png)
 
@@ -115,9 +114,9 @@ H<sub>1</sub>: Tere is an association between marital status of customers and cu
 
 ![Sample Plot](plots/obj4_plot.png)
 
-Fig. 4: How education level influences customers decision in subscribing to Term Deposit
+**Fig. 4: How education level influences customers decision in subscribing to Term Deposit**
 
-Table 4: Does Educational level significantly influences customers decision to subscribe to Term Deposit
+**Table 4: Does Educational level significantly influences customers decision to subscribe to Term Deposit**
 
 |               |chi-square test    |
 |:-------------:|:-----------------:| 
@@ -129,4 +128,6 @@ Table 4: Does Educational level significantly influences customers decision to s
 
 ## Conclusion
 
-Term Deposit can be referred to as a financial product where a customer commits a certain sum of money for a fixed or predetermined period in exchange for a fixed exchange rate. 
+Term Deposit can be referred to as a financial product where a customer commits a certain amount of money for a fixed or predetermined period in exchange for a fixed exchange rate. It is no secret that banks benefit a great from such deposits as it would solidify the bank competitive strength and further supply and stabilize bank's capital available for running of the business. The main objective of this analysis is to determine whether social status of customers can influence they decision in making term deposit for a specific period of time. Using Direct Marketing Campaign of Portuguese Banking Institution dataset which contains 45,211 data points.
+
+Out of 45,211 customers and potential customers that marketing agents in a Portugues Banking Institution marketed the term deposit finacial product to, a staggering 39,922 (88% approx.) did not eventually subscribe while 5,289 (11% approx.) subscribed at the of the campaign to term deposit. Therefore, this campaign can be considered an unsuccessful campaign according to the target in objective one of this analysis.  
