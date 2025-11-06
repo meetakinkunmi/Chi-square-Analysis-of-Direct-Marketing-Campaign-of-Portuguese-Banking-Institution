@@ -64,9 +64,9 @@ $$
 
 **Hypothesis:**
 
-- H<sub>0</sub>: There is no association between the job type of customers and customers subscribing to Term Deposit
+- H<sub>0</sub>: There is no association between the job type of customers and subscribing to Term Deposit
 
-- H<sub>1</sub>: There is association between the job type of customers and customers subscribing to Term Deposit
+- H<sub>1</sub>: There is association between the job type of customers and subscribing to Term Deposit
 
 ![Sample Plot](plots/obj2_plot1.png)
 
@@ -80,15 +80,15 @@ $$
 |p-value        |3.337122e-172      |
 |df             |1.100000e+01       |
 
-- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between the job type of customers and customers decision to subscribe to Term Deposit.
+- **Decision:** Since p-value ($X^2 = 836.11$, df=11, p-value=0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between the job type of customers and their decision to subscribe to Term Deposit. This shows that job type can significantly influence customer decision to subscribe to term deposit.
 
-**Objective 3:** Determine if there is an association between the marital status of clients and clients subscribing to Term Deposit
+**Objective 3:** Determine if there is an association between the marital status of customers and subscribing to Term Deposit
 
 **Hypothesis**
 
-- H<sub>0</sub>: There is no association between marital status of customers and customers subscribing to Term Deposit
+- H<sub>0</sub>: There is no association between marital status of customers and subscribing to Term Deposit
 
-- H<sub>1</sub>: Tere is an association between marital status of customers and customers subscribing to Term Deposit
+- H<sub>1</sub>: Tere is an association between marital status of customers and subscribing to Term Deposit
 
 ![Sample Plot](plots/obj3_plot1.png)
 
@@ -102,15 +102,15 @@ $$
 |p-value        |0.0000             |
 |df             |2.0000             |
 
-- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit. This shows that, marital status of customers can significantly influence their decisions in making term deposit.
 
-4. Determine if there is an association between the education background of clients and clients subscribing to Term Deposit
+4. Determine if there is an association between the education background of background of customers and subscribing to Term Deposit
 
 **Hypothesis:**
 
-- H<sub>0</sub>: There is no association between educational level of customers and customers subscribing to Term Deposit
+- H<sub>0</sub>: There is no association between educational level of customers and subscribing to Term Deposit
 
-- H<sub>1</sub>: Tere is an association between educational level of customers and customers subscribing to Term Deposit
+- H<sub>1</sub>: Tere is an association between educational level of customers and subscribing to Term Deposit
 
 ![Sample Plot](plots/obj4_plot.png)
 
@@ -124,10 +124,12 @@ $$
 |p-value        |0.0000             |
 |df             |3.0000             |
 
-- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit.
+- **Decision:** Since p-value (0.00) < 0.05, we therefore fail to accept the null hypothesis and conclude that there is an association between marital status of customers and customer's decision to subscribe to Term Deposit. Therefore, we can conclude that education level of customers can statististically and significantly influence their decisions to making term deposit.
 
 ## Conclusion
 
-Term Deposit can be referred to as a financial product where a customer commits a certain amount of money for a fixed or predetermined period in exchange for a fixed exchange rate. It is no secret that banks benefit a great from such deposits as it would solidify the bank competitive strength and further supply and stabilize bank's capital available for running of the business. The main objective of this analysis is to determine whether social status of customers can influence they decision in making term deposit for a specific period of time. Using Direct Marketing Campaign of Portuguese Banking Institution dataset which contains 45,211 data points.
+Term Deposit can be referred to as a financial product where a customer commits a certain amount of money for a fixed or predetermined period in exchange for a fixed exchange rate. It is no secret that banks benefit a great deal from such deposits as it would solidify the bank competitive strength and further supply and stabilize bank's capital available for running of the business. The main objective of this analysis is to determine whether social status of customers can influence their decision in making term deposit for a specific period of time. Using Direct Marketing Campaign of Portuguese Banking Institution dataset which contains 45,211 data points. To test the set forth hypothesis of this report, chi-square test is adopted to test the theoratical distribution of customers decision in subscribing to term deposit and figuring factors that influence such decision among the selected social status indicators.
 
-Out of 45,211 customers and potential customers that marketing agents in a Portugues Banking Institution marketed the term deposit finacial product to, a staggering 39,922 (88% approx.) did not eventually subscribe while 5,289 (11% approx.) subscribed at the of the campaign to term deposit. Therefore, this campaign can be considered an unsuccessful campaign according to the target in objective one of this analysis.  
+Out of 45,211 customers and potential customers that marketing agents in a Portuguese Banking Institution marketed the term deposit finacial product to, a staggering 39,922 (88% approx.) did not eventually subscribe while 5,289 (11% approx.) subscribed at the end of the campaign to term deposit. Therefore, this campaign can be considered an unsuccessful campaign according to the target from objective one of this analysis.
+
+ Chi-square test reveals that 
